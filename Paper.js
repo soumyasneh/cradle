@@ -21,9 +21,9 @@ class paper {
       push();
       translate(pos.x, pos.y);
       rotate(angle);
-      //ellipseMode(CENTER);
+      ellipseMode(CENTER);
       fill(rgb(233,116,81));
-      sphere(50);
+      ellipse(0,0,this.width,this.height);
       pop();
     }
   };
